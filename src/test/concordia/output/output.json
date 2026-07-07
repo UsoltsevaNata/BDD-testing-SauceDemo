@@ -1,0 +1,400 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-07-04T07:51:53.576Z",
+    "end": "2026-07-04T07:52:03.037Z",
+    "duration": 9461,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "18ed6bff-003e-4739-8de9-1a475fa3d9d4",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+          "title": "Unknown feature",
+          "fullFile": "C:\\IdeaProjects\\Test-Automation-for-Swag-Labs-main\\BDD_with_selenium\\concordia\\test\\scenario1.js",
+          "file": "\\test\\scenario1.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 585,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteSetup(suite)",
+              "err": {},
+              "uuid": "16c683a8-60c7-4731-82a5-7882053c3fa6",
+              "parentUUID": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 849,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setup(suite)",
+              "err": {},
+              "uuid": "63ef611c-285d-4b47-9770-08480d5c80ea",
+              "parentUUID": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteTeardown(suite)",
+              "err": {},
+              "uuid": "e4ca6763-b62b-446b-9176-355962c8bb96",
+              "parentUUID": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 67,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "teardown(suite)",
+              "err": {},
+              "uuid": "7944aa2f-131e-4066-b767-d8d9ccac528d",
+              "parentUUID": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Unknown scenario | standard_user_login - 1",
+              "fullTitle": "Unknown feature: Unknown scenario | standard_user_login - 1",
+              "timedOut": false,
+              "duration": 1633,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage(\"https://www.saucedemo.com\"); // (13,3)\n    I.fillField('#user-name', \"standard_user\"); // (14,3)\n    I.fillField('#password', \"secret_sauce\"); // (15,5)\n    I.click(\"Login\"); // (16,5)\n    I.see(\"Products\"); // (17,3)",
+              "err": {},
+              "uuid": "fe7a31df-3323-485e-88a1-6da7583a6fb3",
+              "parentUUID": "d828abe5-6a85-45fc-b1c5-e757d633827c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fe7a31df-3323-485e-88a1-6da7583a6fb3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1633,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "6055a10d-7a32-46a0-a79c-ad4758890035",
+          "title": "Unknown feature",
+          "fullFile": "C:\\IdeaProjects\\Test-Automation-for-Swag-Labs-main\\BDD_with_selenium\\concordia\\test\\scenario2.js",
+          "file": "\\test\\scenario2.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteSetup(suite)",
+              "err": {},
+              "uuid": "f1dacc5a-8466-4aac-b7e6-5e64becc7ced",
+              "parentUUID": "6055a10d-7a32-46a0-a79c-ad4758890035",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 599,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setup(suite)",
+              "err": {},
+              "uuid": "8de5b314-53c1-4032-bfe1-deb28eb07406",
+              "parentUUID": "6055a10d-7a32-46a0-a79c-ad4758890035",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteTeardown(suite)",
+              "err": {},
+              "uuid": "35197759-5956-411b-87e9-830c2b9e4ae9",
+              "parentUUID": "6055a10d-7a32-46a0-a79c-ad4758890035",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 37,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "teardown(suite)",
+              "err": {},
+              "uuid": "9ef8edd3-e07b-4ffb-98da-b72823a25d5a",
+              "parentUUID": "6055a10d-7a32-46a0-a79c-ad4758890035",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Unknown scenario | check_two_items - 1",
+              "fullTitle": "Unknown feature: Unknown scenario | check_two_items - 1",
+              "timedOut": false,
+              "duration": 2925,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage(\"https://www.saucedemo.com\"); // (13,3)\n    I.fillField('#user-name', \"standard_user\"); // (14,3)\n    I.fillField('#password', \"secret_sauce\"); // (15,5)\n    I.click(\"Login\"); // (16,5)\n    I.click('#add-to-cart-sauce-labs-backpack'); // (17,3)\n    I.click('#add-to-cart-sauce-labs-bike-light'); // (18,5)\n    I.click('.shopping_cart_link'); // (19,5)\n    I.see(\"Sauce Labs Backpack\"); // (20,3)\n    I.see(\"Sauce Labs Bike Light\"); // (21,5)",
+              "err": {},
+              "uuid": "c17240b7-629a-417c-a868-0a25547a0750",
+              "parentUUID": "6055a10d-7a32-46a0-a79c-ad4758890035",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c17240b7-629a-417c-a868-0a25547a0750"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2925,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+          "title": "Unknown feature",
+          "fullFile": "C:\\IdeaProjects\\Test-Automation-for-Swag-Labs-main\\BDD_with_selenium\\concordia\\test\\scenario3.js",
+          "file": "\\test\\scenario3.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before all\" hook: codeceptjs.beforeSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteSetup(suite)",
+              "err": {},
+              "uuid": "3349e02b-5978-4cbf-aff3-957e56009cb3",
+              "parentUUID": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"before each\" hook: codeceptjs.before in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 381,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setup(suite)",
+              "err": {},
+              "uuid": "c5d2bb04-74c3-41e7-9b4e-18817a52441b",
+              "parentUUID": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after all\" hook: codeceptjs.afterSuite in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteTeardown(suite)",
+              "err": {},
+              "uuid": "438b3356-bf33-42b1-b227-4d3a2dfc4264",
+              "parentUUID": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "fullTitle": "Unknown feature \"after each\" hook: finalize codeceptjs in \"Unknown feature\"",
+              "timedOut": false,
+              "duration": 7,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "teardown(suite)",
+              "err": {},
+              "uuid": "345ed8af-4947-4bc1-b5bf-9cbbd43d4e34",
+              "parentUUID": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Unknown scenario | add_five_items - 1",
+              "fullTitle": "Unknown feature: Unknown scenario | add_five_items - 1",
+              "timedOut": false,
+              "duration": 2367,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I}) => {\n    I.amOnPage(\"https://www.saucedemo.com\"); // (13,3)\n    I.fillField('#user-name', \"standard_user\"); // (14,3)\n    I.fillField('#password', \"secret_sauce\"); // (15,5)\n    I.click(\"Login\"); // (16,5)\n    I.click('#add-to-cart-sauce-labs-backpack'); // (17,3)\n    I.click('#add-to-cart-sauce-labs-bike-light'); // (18,5)\n    I.click('#add-to-cart-sauce-labs-bolt-t-shirt'); // (19,5)\n    I.click('#add-to-cart-sauce-labs-fleece-jacket'); // (20,5)\n    I.click('#add-to-cart-sauce-labs-onesie'); // (21,5)\n    I.click('.shopping_cart_link'); // (22,5)\n    I.see(\"Sauce Labs Backpack\"); // (23,3)",
+              "err": {},
+              "uuid": "09a787e3-e13d-4343-a05d-a155e82295c0",
+              "parentUUID": "5a37869a-5459-440b-bc37-c0b4f9cd1db3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "09a787e3-e13d-4343-a05d-a155e82295c0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2367,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "output",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": "json=true,reportDir=C:\\IdeaProjects\\Test-Automation-for-Swag-Labs-main\\BDD_with_selenium\\concordia\\output,reportFilename=output",
+      "version": "5.2.0"
+    }
+  }
+}

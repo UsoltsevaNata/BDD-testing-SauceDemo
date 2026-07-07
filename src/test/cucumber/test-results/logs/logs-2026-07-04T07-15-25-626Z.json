@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-07-04T07-15-25-626Z",
+  "summary": {
+    "totalTests": 4,
+    "passed": 4,
+    "failed": 0,
+    "sumDurationMs": 7027,
+    "avgPeakMemoryMB": 80.62004470825195,
+    "maxPeakMemoryMB": 89.87043762207031,
+    "avgCpuUserPercent": 5.7575449321056755,
+    "avgCpuSystemPercent": 0.25477707006369427,
+    "maxCpuUserPercent": 8.590308370044053,
+    "maxCpuSystemPercent": 1.019108280254777
+  },
+  "testResults": [
+    {
+      "testName": "Login with different users",
+      "status": "passed",
+      "durationMs": 1898,
+      "peakMemoryMB": 68.5110092163086,
+      "cpuUserPercent": 3.3192834562697575,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Login with different users",
+      "status": "passed",
+      "durationMs": 1570,
+      "peakMemoryMB": 75.09720611572266,
+      "cpuUserPercent": 3.949044585987261,
+      "cpuSystemPercent": 1.019108280254777
+    },
+    {
+      "testName": "Authorized user checks total item price",
+      "status": "passed",
+      "durationMs": 1816,
+      "peakMemoryMB": 89.00152587890625,
+      "cpuUserPercent": 8.590308370044053,
+      "cpuSystemPercent": 0
+    },
+    {
+      "testName": "Add 10 different items to the cart",
+      "status": "passed",
+      "durationMs": 1743,
+      "peakMemoryMB": 89.87043762207031,
+      "cpuUserPercent": 7.17154331612163,
+      "cpuSystemPercent": 0
+    }
+  ]
+}

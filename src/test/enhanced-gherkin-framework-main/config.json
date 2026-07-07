@@ -1,0 +1,15 @@
+{
+  "logging": {
+    "enabled": true,
+    "outputPath": "./test-results/logs"
+  },
+  "screenshots": {
+    "enabled": true,
+    "path": "./test-results/screenshots/"
+  },
+  "videos": {
+    "enabled": true,
+    "path": "./test-results/videos/",
+    "recordOn": "failed"
+  }
+}

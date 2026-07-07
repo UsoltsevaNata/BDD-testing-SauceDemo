@@ -1,0 +1,16 @@
+{
+	"sourceFile": "C:\\IdeaProjects\\Test-Automation-for-Swag-Labs-main\\BDD_with_selenium\\concordia\\output\\output.json",
+	"plugin": {},
+	"started": "2026-07-04T07:51:53.576Z",
+	"finished": "2026-07-04T07:52:03.037Z",
+	"durationMs": 9461,
+	"total": {
+		"tests": 3,
+		"passed": 3,
+		"failed": 0,
+		"skipped": 0,
+		"error": 0,
+		"unknown": 0
+	},
+	"results": []
+}

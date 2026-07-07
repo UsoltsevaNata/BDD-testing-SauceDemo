@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-07-04T07-30-20-413Z",
+  "run": 4,
+  "summary": {
+    "totalTests": 3,
+    "passed": 3,
+    "failed": 0,
+    "sumDurationMs": 6258,
+    "avgPeakMemoryMB": 623.4036458333334,
+    "maxPeakMemoryMB": 632.51171875,
+    "avgPeakCpuUserPercent": 320.14,
+    "avgPeakCpuSystemPercent": 135.6
+  },
+  "testResults": [
+    {
+      "testName": "Unknown scenario | standard_user_login - 1",
+      "status": "passed",
+      "durationMs": 1685,
+      "peakMemoryMB": 632.01953125,
+      "peakCpuUserPercent": 342.14,
+      "peakCpuSystemPercent": 51.93
+    },
+    {
+      "testName": "Unknown scenario | check_two_items - 1",
+      "status": "passed",
+      "durationMs": 1759,
+      "peakMemoryMB": 632.51171875,
+      "peakCpuUserPercent": 373.96,
+      "peakCpuSystemPercent": 206.08
+    },
+    {
+      "testName": "Unknown scenario | add_five_items - 1",
+      "status": "passed",
+      "durationMs": 2814,
+      "peakMemoryMB": 605.6796875,
+      "peakCpuUserPercent": 244.31,
+      "peakCpuSystemPercent": 148.79
+    }
+  ]
+}
