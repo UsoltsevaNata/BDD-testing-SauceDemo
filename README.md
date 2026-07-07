@@ -11,10 +11,9 @@ This repository contains automated BDD test suites for the SauceDemo web shop (h
 
 - **Original author of Enhanced Gherkin Framework:** Svetlana V. Gerus, *student at SPbPU ICSC*
 
-## Warranty 
+## Warranty
 
-The Spring PetClinic application is licensed under the Apache License 2.0; all rights remain with the original Spring project authors.  
-The test code in this repository is provided for educational and research purposes. The contributors give no warranty for the using of the software.
+The contributors provide **no warranty** for the use of this software. Use it at your own risk.
 
 ## License
 
